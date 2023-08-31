@@ -1,0 +1,44 @@
+
+.input-box, .output-box{
+    margin: 0 5%;
+}
+
+.input-box label, .output-box label{
+    line-height: 2em;
+}
+
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.error-messages{
+    color: red;
+    font-size: 10px;
+}
+
+.inputArea,
+ .outputArea{
+    width: 100%;
+    height: 250px;
+    border-radius: 12px 12px 0 12px;
+    background-image: linear-gradient(rgb(241, 241, 241) 50%, rgb(249, 249, 249) 50%);
+    background-size: 100% 2rem;
+    border: 0.8px solid #8e9398;
+}
+
+.inputArea:focus,
+.outputAreaLfocus{
+    box-shadow: 0px 2px 24px #003A75;
+    outline: none;
+}
+
+
+.actions-bar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.actions-bar button{
+    margin: 5px;
+}

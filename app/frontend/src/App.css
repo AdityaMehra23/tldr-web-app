@@ -1,0 +1,14 @@
+
+
+.loader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.loader label{
+    margin:3px;
+}

@@ -1,0 +1,10 @@
+datasets 
+evaluate 
+transformers==4.28.0 
+rouge-score
+accelerate 
+nltk
+ipykernel
+ipywidgets
+loralib==0.1.1
+peft==0.3.0

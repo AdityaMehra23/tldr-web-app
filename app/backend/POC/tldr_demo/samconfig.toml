@@ -1,0 +1,10 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "tldr-demo"
+resolve_s3 = true
+s3_prefix = "tldr-demo"
+region = "eu-north-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["HelloWorldFunction=162365882019.dkr.ecr.eu-north-1.amazonaws.com/tldrdemo51e08215/helloworldfunction19d43fc4repo"]
